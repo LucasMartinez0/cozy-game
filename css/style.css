@@ -43,5 +43,19 @@ body {
 
 .cozy-navbar {
   background-color: var(--cozy-cream);
-  border-bottom: 2px solid var(--cozy-wood);
+  border-bottom: 2px solid var(--cozy-border);
+}
+
+.button-nav {
+  background-color: #557258;
+  color: var(--cozy-card-bg);
+}
+
+.a-title {
+  color: var(--cozy-wood-muted);
+  font-weight: 700;
+}
+
+.elvalle {
+  font-weight: 700;
 }
