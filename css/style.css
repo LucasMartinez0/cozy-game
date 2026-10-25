@@ -59,3 +59,31 @@ body {
 .elvalle {
   font-weight: 700;
 }
+
+
+.cozy-footer {
+  background-color: var(--cozy-wood);
+  color: var(--cozy-sand);
+}
+
+.text-footer {
+  color: var(--cozy-wood-muted);
+}
+
+.icons-footer {
+  background-color: var(--cozy-wood-muted);
+  border: 1px solid var(--cozy-wood);
+  border-radius: 50%;
+}
+
+.text-juego {
+  color: var(--cozy-wood-muted);
+}
+
+.linea-footer {
+  background-color: var(--cozy-yellow-light);
+}
+
+.text-footer2 {
+  color: var(--cozy-wood-muted);
+}
