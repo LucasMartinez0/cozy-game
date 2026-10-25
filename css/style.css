@@ -87,3 +87,7 @@ body {
 .text-footer2 {
   color: var(--cozy-wood-muted);
 }
+
+main {
+  min-height: 100vh;
+}
