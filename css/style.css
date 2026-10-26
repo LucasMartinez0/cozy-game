@@ -91,3 +91,40 @@ body {
 main {
   min-height: 100vh;
 }
+
+
+.mainbt1 {
+  background-color: var(--cozy-sage-light);
+  border: 1px solid var(--cozy-sage);
+  color: var(--cozy-sage);
+  border-radius: 50px;
+}
+
+.mainbt2 {
+  background-color: var(--cozy-peach-light);
+  color: var(--cozy-peach-hover);
+  border-radius: 50px;
+}
+
+.mainbt3 {
+  background-color: var(--cozy-yellow-light);
+  color: var(--cozy-yellow);
+  border-radius: 50px;
+}
+
+.mainbt4 {
+  background-color: var(--cozy-peach);
+  color: var(--cozy-card-bg);
+  border-radius: 50px;
+}
+
+.mainbt5 {
+  background-color: var(--cozy-cream);
+  border: 1px solid var(--cozy-peach-hover);
+  color: var(--cozy-wood);
+  border-radius: 50px;
+}
+
+.iconbt5 {
+  color: var(--cozy-peach-hover);
+}
