@@ -128,3 +128,39 @@ main {
 .iconbt5 {
   color: var(--cozy-peach-hover);
 }
+
+/* Cards */
+
+.encabezado-komo {
+  background-color: var(--cozy-sage-light);
+  color: var(--cozy-sage);
+  border: 1px solid var(--cozy-sage);
+}
+
+.title-komo {
+  color: var(--cozy-wood);
+}
+
+.text-komo {
+  color: var(--cozy-wood-muted);
+}
+
+.flor {
+  background-color: var(--cozy-sage-light);
+  color: var(--cozy-sage);
+}
+
+.olas {
+  background-color: var(--cozy-peach-light);
+  color: var(--cozy-peach-hover);
+}
+
+.te {
+  background-color: var(--cozy-yellow-light);
+  color: var(--cozy-yellow);
+}
+
+.text-komo2 {
+  background-color: var(--cozy-peach-light);
+  color: var(--cozy-peach-hover);
+}
