@@ -355,10 +355,8 @@
       </div>
     </section>
     <section class="container py-5">
-      <!-- Encabezado -->
       <div class="text-center mb-5">
         <span class="badge rounded-pill mb-3 encabezado-komo">
-          <!-- tu clase de color -->
           Dudas Frecuentes
         </span>
         <h2 class="fw-bold mb-3">Todo lo que necesitas saber</h2>
@@ -367,10 +365,8 @@
         </p>
       </div>
 
-      <!-- Acordeón -->
       <div class="col-12 col-lg-8 mx-auto">
         <div class="accordion" id="faqAccordion">
-          <!-- 1 (abierta) -->
           <div class="accordion-item rounded-4 overflow-hidden mb-3 bord1">
             <h3 class="accordion-header">
               <button
@@ -381,8 +377,8 @@
                 aria-expanded="true"
                 aria-controls="faq1"
               >
-                <i class="bi bi-controller me-2 text-success"></i> ¿En qué plataformas estará
-                disponible?
+                <i class="bi bi-controller me-2 text-success"></i> ¿En qué
+                plataformas estará disponible?
               </button>
             </h3>
             <div
@@ -400,7 +396,6 @@
             </div>
           </div>
 
-          <!-- 2 -->
           <div class="accordion-item rounded-4 overflow-hidden mb-3">
             <h3 class="accordion-header">
               <button
@@ -411,8 +406,8 @@
                 aria-expanded="false"
                 aria-controls="faq2"
               >
-                <i class="bi bi-people-fill me-2 text-warning"></i> ¿Tiene modo multijugador
-                cooperativo?
+                <i class="bi bi-people-fill me-2 text-warning"></i> ¿Tiene modo
+                multijugador cooperativo?
               </button>
             </h3>
             <div
@@ -428,7 +423,6 @@
             </div>
           </div>
 
-          <!-- 3 -->
           <div class="accordion-item rounded-4 overflow-hidden mb-3">
             <h3 class="accordion-header">
               <button
@@ -439,8 +433,8 @@
                 aria-expanded="false"
                 aria-controls="faq3"
               >
-                <i class="bi bi-clock me-2 text-primary"></i> ¿Hay límites de tiempo o
-                penalizaciones?
+                <i class="bi bi-clock me-2 text-primary"></i> ¿Hay límites de
+                tiempo o penalizaciones?
               </button>
             </h3>
             <div
@@ -455,7 +449,6 @@
             </div>
           </div>
 
-          <!-- 4 -->
           <div class="accordion-item rounded-4 overflow-hidden">
             <h3 class="accordion-header">
               <button
@@ -466,8 +459,8 @@
                 aria-expanded="false"
                 aria-controls="faq4"
               >
-                <i class="bi bi-pc-display me-2 text-danger"></i> ¿Cuáles son los requisitos
-                mínimos de sistema?
+                <i class="bi bi-pc-display me-2 text-danger"></i> ¿Cuáles son
+                los requisitos mínimos de sistema?
               </button>
             </h3>
             <div
@@ -484,11 +477,136 @@
         </div>
       </div>
     </section>
+    <section class="container py-5">
+      <div class="cta-beta rounded-5 text-center p-4 p-md-5">
+        <i class="bi bi-envelope-heart cta-beta-icon"></i>
+        <h2 class="fw-bold mt-3 mb-3">
+          ¿Quieres ser de los primeros en explorar el valle?
+        </h2>
+        <p class="cta-beta-text mx-auto mb-4">
+          Súmate a nuestro playtest privado y recibe postales digitales
+          exclusivas y la banda sonora en formato lofi antes del estreno.
+        </p>
+        <button
+          type="button"
+          class="btn btn-peach fw-bold rounded-pill px-4 py-2"
+          data-bs-toggle="modal"
+          data-bs-target="#modalBeta"
+        >
+          <i class="bi bi-envelope-paper-heart me-1"></i> Inscribirme a la Beta
+          Cerrada
+        </button>
+      </div>
+    </section>
+    <div
+      class="modal fade modal-cozy"
+      id="modalBeta"
+      tabindex="-1"
+      aria-labelledby="modalBetaTitulo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="modalBetaTitulo">
+              Acceso a la beta de Komorebi
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="small mb-4">
+              Te enviaremos una clave de Steam tan pronto como abramos la
+              próxima ronda de prueba para la comunidad.
+            </p>
+
+            <form class="form-cozy" action="#" method="post">
+              <div class="mb-3">
+                <label for="betaNombre" class="form-label"
+                  >¿Cómo te gustaría que te llamen?</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-person"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="betaNombre"
+                    name="nombre"
+                    placeholder="Tu nombre o apodo"
+                    autocomplete="nickname"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="betaCorreo" class="form-label"
+                  >Correo electrónico</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-at"></i></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="betaCorreo"
+                    name="correo"
+                    placeholder="tucorreo@ejemplo.com"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="betaPlataforma" class="form-label"
+                  >Plataforma principal</label
+                >
+                <select
+                  class="form-select"
+                  id="betaPlataforma"
+                  name="plataforma"
+                >
+                  <option selected>Steam (PC / Windows)</option>
+                  <option>Steam (Mac)</option>
+                  <option>Steam Deck</option>
+                  <option>Nintendo Switch</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="betaMascota" class="form-label"
+                  >¿Qué mascota prefieres en tu cabaña?</label
+                >
+                <select class="form-select" id="betaMascota" name="mascota">
+                  <option selected>Gatito Calicó dormilón</option>
+                  <option>Perrito Shiba curioso</option>
+                  <option>Zorrito huérfano</option>
+                  <option>Conejito de campo</option>
+                </select>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-sage w-100 fw-bold rounded-pill py-2"
+              >
+                <i class="bi bi-check-circle me-1"></i> Confirmar mi Solicitud
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer class="cozy-footer pt-5 pb-3">
     <div class="container">
       <div class="row gy-4">
-        <!-- Marca -->
         <div class="col-12 col-lg-6">
           <h4 class="fs-4 fw-bold mb-3">Komorebi Valley</h4>
           <p class="small text-footer mb-3">
@@ -506,7 +624,6 @@
           </div>
         </div>
 
-        <!-- Juego -->
         <div class="col-6 col-lg-3">
           <h6 class="text-uppercase fw-bold mb-3">Juego</h6>
           <p class="small mb-2 text-juego">
@@ -525,7 +642,6 @@
           </p>
         </div>
 
-        <!-- Comunidad -->
         <div class="col-6 col-lg-3">
           <h6 class="text-uppercase fw-bold mb-3">Comunidad</h6>
           <p class="small mb-2 text-juego">

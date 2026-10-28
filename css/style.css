@@ -179,5 +179,95 @@ main {
   border: 1px solid var(--cozy-border);
 }
 
+.cta-beta {
+  background-color: var(--cozy-peach-light);
+  border: 2px solid var(--cozy-border);
+  color: var(--cozy-wood);
+}
 
+.cta-beta-icon {
+  font-size: 40px;
+  color: var(--cozy-peach);
+}
+
+.cta-beta-text {
+  max-width: 420px;
+  color: var(--cozy-wood-muted);
+}
+
+/* ===== BOTÓN DURAZNO ===== */
+.btn-peach {
+  background-color: var(--cozy-peach);
+  color: white;
+  border: none;
+}
+
+.btn-peach:hover {
+  background-color: var(--cozy-peach-hover);
+  color: white;
+}
+
+/* ===== BOTÓN VERDE ===== */
+.btn-sage {
+  background-color: var(--cozy-sage);
+  color: white;
+  border: none;
+}
+
+.btn-sage:hover {
+  background-color: var(--cozy-sage-hover);
+  color: white;
+}
+
+/* ===== MODAL ===== */
+.modal-cozy .modal-content {
+  background-color: var(--cozy-card-bg);
+  color: var(--cozy-wood);
+  border: 2px solid var(--cozy-border);
+  border-radius: 24px;
+}
+
+.modal-cozy .modal-header {
+  border-bottom: 1px solid var(--cozy-border);
+}
+
+.modal-cozy p {
+  color: var(--cozy-wood-muted);
+}
+
+/* ===== FORMULARIO ===== */
+.form-cozy .form-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--cozy-wood);
+}
+
+/* Campos de texto y selects */
+.form-cozy .form-control,
+.form-cozy .form-select {
+  border: 2px solid var(--cozy-border);
+  border-radius: 16px;
+  padding: 12px 16px;
+  color: var(--cozy-wood);
+}
+
+/* Cuadradito con el ícono */
+.form-cozy .input-group-text {
+  background-color: var(--cozy-cream);
+  border: 2px solid var(--cozy-border);
+  color: var(--cozy-wood-muted);
+  border-radius: 16px 0 0 16px;
+}
+
+/* Input que va al lado del ícono */
+.form-cozy .input-group .form-control {
+  border-radius: 0 16px 16px 0;
+}
+
+/* Cuando hacés clic en un campo */
+.form-cozy .form-control:focus,
+.form-cozy .form-select:focus {
+  border-color: var(--cozy-sage);
+  box-shadow: none;
+}
 
