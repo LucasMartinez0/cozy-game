@@ -165,7 +165,19 @@ main {
   color: var(--cozy-peach-hover);
 }
 
+.acord1 {
+  background-color: var(--cozy-sage-light);
+  color: var(--cozy-sage-hover);
+}
 
+.acord2 {
+--bs-accordion-active-bg: #e6ede6;      
+--bs-accordion-active-color: #4a6a4f; 
+}
+
+.bord1 {
+  border: 1px solid var(--cozy-border);
+}
 
 
 

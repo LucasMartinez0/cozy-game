@@ -272,7 +272,9 @@
               />
             </div>
             <div class="card-body">
-              <span class="badge rounded-pill mb-2 text-danger bg-danger-subtle">Primavera</span>
+              <span class="badge rounded-pill mb-2 text-danger bg-danger-subtle"
+                >Primavera</span
+              >
               <!-- tu clase de color -->
               <h3 class="h6 fw-bold">Floración de Cerezos</h3>
               <p class="small mb-0">
@@ -293,7 +295,10 @@
               />
             </div>
             <div class="card-body">
-              <span class="badge rounded-pill mb-2 text-secondary bg-warning-subtle">Verano</span>
+              <span
+                class="badge rounded-pill mb-2 text-secondary bg-warning-subtle"
+                >Verano</span
+              >
               <h3 class="h6 fw-bold">Cigarra &amp; Sandía Helada</h3>
               <p class="small mb-0">
                 Días luminosos, flores cálidas y luciérnagas al caer la noche.
@@ -313,7 +318,9 @@
               />
             </div>
             <div class="card-body">
-              <span class="badge rounded-pill mb-2 text-dark bg-warning-subtle">Otoño</span>
+              <span class="badge rounded-pill mb-2 text-dark bg-warning-subtle"
+                >Otoño</span
+              >
               <h3 class="h6 fw-bold">Hojas Rojas de Arce</h3>
               <p class="small mb-0">
                 Tiempo de recolectar castañas, caquis maduros y agradecer la
@@ -334,12 +341,144 @@
               />
             </div>
             <div class="card-body">
-              <span class="badge rounded-pill mb-2 text-primary bg-info-subtle">Invierno</span>
+              <span class="badge rounded-pill mb-2 text-primary bg-info-subtle"
+                >Invierno</span
+              >
               <h3 class="h6 fw-bold">Nieve &amp; Té Calentito</h3>
               <p class="small mb-0">
                 Manto blanco en los tejados, aguas termales abiertas y siestas
                 con tu gato.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container py-5">
+      <!-- Encabezado -->
+      <div class="text-center mb-5">
+        <span class="badge rounded-pill mb-3 encabezado-komo">
+          <!-- tu clase de color -->
+          Dudas Frecuentes
+        </span>
+        <h2 class="fw-bold mb-3">Todo lo que necesitas saber</h2>
+        <p class="small mb-0">
+          Respuestas claras para futuros granjeros y exploradores del valle.
+        </p>
+      </div>
+
+      <!-- Acordeón -->
+      <div class="col-12 col-lg-8 mx-auto">
+        <div class="accordion" id="faqAccordion">
+          <!-- 1 (abierta) -->
+          <div class="accordion-item rounded-4 overflow-hidden mb-3 bord1">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button fw-bold acord1 acord2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+                aria-expanded="true"
+                aria-controls="faq1"
+              >
+                <i class="bi bi-controller me-2 text-success"></i> ¿En qué plataformas estará
+                disponible?
+              </button>
+            </h3>
+            <div
+              id="faq1"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body small">
+                El juego se lanzará inicialmente en
+                <strong>Steam (PC, Mac y Steam Deck)</strong>
+                con compatibilidad total para mandos. Unos meses después llegará
+                a
+                <strong>Nintendo Switch</strong> y consolas de sobremesa.
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="accordion-item rounded-4 overflow-hidden mb-3">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold acord3 bord1"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                aria-expanded="false"
+                aria-controls="faq2"
+              >
+                <i class="bi bi-people-fill me-2 text-warning"></i> ¿Tiene modo multijugador
+                cooperativo?
+              </button>
+            </h3>
+            <div
+              id="faq2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body small">
+                Sí. Podés invitar a un amigo a tu valle y trabajar la huerta,
+                pescar y decorar la cabaña juntos, en modo cooperativo para dos
+                jugadores.
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="accordion-item rounded-4 overflow-hidden mb-3">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold bord1"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                aria-expanded="false"
+                aria-controls="faq3"
+              >
+                <i class="bi bi-clock me-2 text-primary"></i> ¿Hay límites de tiempo o
+                penalizaciones?
+              </button>
+            </h3>
+            <div
+              id="faq3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body small">
+                No. No hay relojes que te apuren ni cosechas que se pierdan. Tú
+                decides el ritmo de cada día.
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="accordion-item rounded-4 overflow-hidden">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                aria-expanded="false"
+                aria-controls="faq4"
+              >
+                <i class="bi bi-pc-display me-2 text-danger"></i> ¿Cuáles son los requisitos
+                mínimos de sistema?
+              </button>
+            </h3>
+            <div
+              id="faq4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body small">
+                Pensamos el juego para equipos modestos. Los requisitos exactos
+                se publicarán en la página de Steam antes del lanzamiento.
+              </div>
             </div>
           </div>
         </div>
